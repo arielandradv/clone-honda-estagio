@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda Brasil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <img src="imagens/hondalogo.png" alt="Logo da Honda">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Carros</a></li>
+                <li><a href="#">Motos</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Carrossel -->
+    <section id="carrossel">
+        <div class="carousel">
+            <div class="carousel-item active">
+                <img src="imagens/page1.webp" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/page2.webp" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/page3.webp" alt="Slide 3">
+            </div>
+            <a class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</a>
+            <a class="carousel-control next" onclick="moveSlide(1)">&#10095;</a>
+        </div>
+    </section>
+
+    <!-- Conteúdo principal -->
+    <section id="principal">
+        <h2>Bem-vindo ao site da Honda Brasil</h2>
+        <p>Aqui você encontra os melhores veículos.</p>
+    </section>
+
+    <!-- Seção de Pós Venda -->
+<section id="pos-venda">
+    <div class="pos-venda-container">
+        <div class="automoveis">
+            <h2>PÓS VENDA EM AUTOMÓVEIS</h2>
+            <p>Conheça os nossos serviços</p>
+            <button>SAIBA MAIS</button>
+            <img src="imagens/carro.png" alt="Carro" class="imagem-carro">
+        </div>
+        
+        <div class="separator"></div>
+
+        <div class="motocicletas">
+            <h2>PÓS VENDA EM MOTOCICLETAS</h2>
+            <p>Conheça os nossos serviços</p>
+            <button>SAIBA MAIS</button>
+            <img src="imagens/moto.png" alt="Motocicleta" class="imagem-moto">
+        </div>
+    </div>
+</section>
+
+    
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 © Honda - Todos os direitos Reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
